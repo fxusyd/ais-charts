@@ -31,3 +31,8 @@ dependencies:
   condition: postgresql.enabled
   repository: "https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami"
   version: "15.5.38"  # postgresql app version 16.4.0
+- name: smarter-device-manager
+  condition: smarter-device-manager.enabled
+  repository: "https://smarter-project.github.io/smarter-device-manager"
+  version: "0.0.10"
+

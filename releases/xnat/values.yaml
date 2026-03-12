@@ -320,3 +320,11 @@ xnat-web:
       timeoutSeconds: 3
 
   timezone: "UTC"
+
+smarter-device-manager: 
+  enabled: true
+  nodeSelector:
+    smarter-device-manager: enabled
+  config:
+  - devicematch: ^fuse$
+    nummaxdevices: 5
