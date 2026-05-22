@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   ctp:
   - apiVersion: v2
+    appVersion: v2025.03.26
+    created: "2026-05-22T01:19:04.995706286Z"
+    description: Clinical Trial Processor (CTP), provides all the processing features
+      of a MIRC site.
+    digest: 472f64a4e59dda0ef09db675bba432230d07192f1743c7c74fcca87dcf8e032b
+    maintainers:
+    - email: dean.taylor@sydney.edu.au
+      name: dean-taylor
+      url: https://au.linkedin.com/in/dean-taylor-a8699238
+    name: ctp
+    type: application
+    urls:
+    - https://github.com/fxusyd/ais-charts/releases/download/ctp-1.1.0/ctp-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: "20231104"
     created: "2024-04-09T00:59:01.506690291Z"
     description: Clinical Trial Processor (CTP), provides all the processing features
@@ -79,6 +94,25 @@ entries:
     - https://github.com/Australian-Imaging-Service/charts/releases/download/ctp-0.1.0/ctp-0.1.0.tgz
     version: 0.1.0
   xnat:
+  - apiVersion: v2
+    appVersion: 1.9.3.1
+    created: "2026-05-22T01:19:05.172451932Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 15.5.38
+    description: XNAT imaging informatics platform
+    digest: 959cfa1a7042126914c1de8f7620f15ecb13f1d99d217d747c6fcee9909b74f4
+    maintainers:
+    - email: dean.taylor@sydney.edu.au
+      name: dean-taylor
+      url: https://au.linkedin.com/in/dean-taylor-a8699238
+    name: xnat
+    type: application
+    urls:
+    - https://github.com/fxusyd/ais-charts/releases/download/xnat-2.0.0/xnat-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v2
     appVersion: 1.9.3.1
     created: "2026-03-05T06:50:58.354306406Z"
@@ -604,4 +638,4 @@ entries:
     urls:
     - https://github.com/Australian-Imaging-Service/charts/releases/download/xnat-0.3.0/xnat-0.3.0.tgz
     version: 0.3.0
-generated: "2026-03-05T06:50:58.354617488Z"
+generated: "2026-05-22T01:19:05.172830728Z"
